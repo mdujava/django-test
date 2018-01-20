@@ -48,7 +48,12 @@ body {
     background: pink;
 }
 
-p {
+input[type="text"], textarea {
+    background: #ffaaff;
+}
+
+.post p {
+    text-align: justify-all;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 18px;
 }
